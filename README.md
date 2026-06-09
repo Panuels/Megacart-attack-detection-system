@@ -1,5 +1,6 @@
 #MEGACART ATTACK DETECTION SYSTEM
 
+##About the project
 MADS scans all loaded JavaScript files
         ↓
 Each script checked → Is it whitelisted? Is SRI hash valid?
