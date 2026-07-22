@@ -25,11 +25,11 @@ Each script checked → Is it whitelisted? Is SRI hash valid?
 
 ## 📚 Background & Research
 
-This project was developed in response to the growing threat of Magecart-style supply chain attacks, which have affected thousands of e-commerce platforms globally including British Airways, Ticketmaster, and Newegg.
+This project was built in response to the growing threat of Magecart-style supply chain attacks, which have compromised major e-commerce platforms worldwide.
 
-The system specifically targets the gap in client-side security tools available to SMEs in emerging markets like Kenya, where digital commerce is growing rapidly but cybersecurity infrastructure remains limited.
+It specifically addresses a gap in client-side security tooling for small and medium-sized e-commerce businesses in emerging markets like Kenya, where digital commerce is expanding quickly but cybersecurity infrastructure often lags behind.
 
-Key concepts applied:
+# Key concepts applied:
 
 - 🔑 Subresource Integrity (SRI)
 - 🛡️ Content Security Policy (CSP)
