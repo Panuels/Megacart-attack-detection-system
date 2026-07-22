@@ -1,21 +1,17 @@
 ## MEGACART ATTACK DETECTION SYSTEM
 
 ## About the project
-MADS scans all loaded JavaScript files
-        ↓
-Each script checked → Is it whitelisted? Is SRI hash valid?
-        ↓                              ↓
-      ✅ Safe                    ❌ Suspicious
-   Script runs                Taint tracking activated
-   normally                         ↓
-                         Is card data being sent externally?
-                              ↓                ↓
-                           ✅ No            🚨 Yes
-                        Flag for review   BLOCK script
-                                          Log incident
-                                          Alert admin
+MADS scans all JavaScript files loaded on a webpage and checks each one against two criteria:
 
------
+> Is the script whitelisted?
+> Is its Subresource Integrity (SRI) hash valid?
+
+If both checks pass → the script is marked safe and runs normally, while taint tracking stays active in the background.
+
+If either check fails → the script is flagged as suspicious, and taint tracking determines whether card data is being sent to an external destination:
+
+No suspicious data flow → the script is flagged for review.
+Suspicious data flow detected → the script is blocked immediately, the incident is logged, and the admin is alerted.
 
 ## 📸 UI Screenshots
 
