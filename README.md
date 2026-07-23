@@ -15,7 +15,7 @@ Suspicious data flow detected → the script is blocked immediately, the inciden
 
 ## 📸 UI Screenshots
 
-> Screenshots of the admin interface including the Dashboard, Script Monitor, Incident Log, CSP Config, and Report Generator are available in the /docs/screenshots/ folder.
+> Screenshots of the admin interface including the Dashboard, Script Monitor, Incident Log, CSP Config, and Report Generator are available in the /docs/peoject screenshots/ folder.
 
 -----
 
